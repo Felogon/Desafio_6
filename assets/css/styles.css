@@ -6,8 +6,13 @@
     background-color: rgb(132, 161, 51);
 }
 
+.navbar-nav{
+    padding-left: 60%;
+}
+
 .img-fluid{
-    border-radius: 35%;
+    border-radius: 55%;
+    
     
 }
 
@@ -30,7 +35,35 @@
     background-color: blueviolet;
 }
 
-#yo, #welcome, #contactame{
+#yo, #welcome, #contactame, #portfolio {
     font-style: italic;
     color: rgb(132, 161, 51);
+}
+
+#Portafolio{
+    background-color: rgb(8, 93, 119);
+}
+
+.card{
+    transition: transform 250ms;  
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+@media (max-width: 768px) {
+  #contact form label {
+    font-weight: 400;
+  }
+}
+
+footer{
+    font-size:small
+}
+
+.image-top{
+    height: 250px;
+    background-size: cover;
+    background-position: center;
 }
