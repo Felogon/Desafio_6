@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Examen</title>
+  
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Mi estilo CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Font Awesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+ <script src="https://kit.fontawesome.com/0463a5856d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <h4 id="welcome" style="font-style: italic;"><b>Bienvenido! </b><i class="fa-solid fa-cog fa-spin"></i></h4> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav m-lg-auto">
+          <a class="nav-link active" aria-current="page" href="#aboutme">Resumen</a>
+          <a class="nav-link px-3" href="#aboutme">Estudios</a>
+          <a class="nav-link px-3" href="#aboutme">Experiencia</a>
+          <a class="nav-link px-3" href="#contact">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido -->
+  <section id="aboutme"> 
+    <div class="container-fluid px-sm-0 p-md-5">
+
+    <!-- Primera fila con 3 columnas -->
+      <div class="row px-sm-0 p-md-5"> 
+        
+
+    <!-- Primera columna -->
+        <div class="col-xs-12 col-sm-4 col-md-4 mb-4">
+          <div class="card">
+            <img src="assets/imgs/yo1.jpg" class="img-fluid" alt="foto perfil">
+            <div class="card-body"> 
+              <h5 class="card-desc">
+               <p>Tengo 30 años y soy Ingeniero en Redes con vasta experiencia en el campo de las Telecomunicaciones, especialmente en tecnologías y desarrollo móvil. Cuento con experiencia en viajes y hablo inglés!</p> 
+                Siempre motivado y abierto a nuevos desafios! 
+              </h5>
+                <br>
+                <br>
+              <p class="font-weight-light"><i class="fa-solid fa-location-dot"></i> Santiago de Chile, 2022 </p> 
+            </div>
+          </div>
+        </div>
+      
+    <!-- Segunda columna -->
+    <div class="col-xs-12 col-sm-8 col-md-8 mb-8">
+      <div id="about" class="container text-center my-5">
+        <h2 id="yo" class="display-3 fw-bold my-4"><i class="fa-solid fa-spinner fa-spin-pulse fa-spin-reverse"></i> Felipe González E.</h2>
+        <br>
+        <br>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="fa-2x">
+                  <i class="fa-solid fa-graduation-cap fa-3x my-3"></i>
+              </div>               
+              <h3 class="my-3 fw-bold">Formación</h3>
+              <p class="my-3">
+                <ul>
+                  <li>Tecnico en Telecomunicaciones en <b>Duoc UC</b></li>
+                  <br>
+                  <li>Ingenieria en Conectividad y Redes en <b>IP CIISA</b> </li>
+                  <br>
+                  <li>Desarrollador Fullstack Js en <b>Desafio LATAM</b> (en curso) </li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="fa-2x">
+                <i class="fa-solid fa-user-tie fa-3x my-3"></i>
+              </div>               
+              <h3 class="my-3 fw-bold">Experiencia</h3>
+              <p class="my-3">
+                  <ul>
+                    <li>Team leader e Ingeniero de Soporte en <b>HUAWEI Chile</b></li>
+                    <small><b>Soporte tecnico de servicios móviles de Huawei</b></small>
+                    <br>
+                    <br>
+                    <li>Technical Account Manager en <b>DEKRA Chile</b> </li>
+                    <small><b>Gestión con clientes y procesos de homologación para Movistar</b></small>
+                    <br>
+                    <br>
+                    <li>Operador de pruebas en <b>DEKRA Chile</b> (en curso) </li>
+                    <small><b>Pruebas de performance y RF a dispositivos móviles</b></small>
+                  </ul>
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+
+  <section id="contact" class="container my-5">
+    <h2 id="contactame" class="display-4 fw-bold text-center my-4">Contáctame</h2>
+    <p id="contact_text" class="text-center my-4">¿Deseas comunicarme? Si completas el siguiente formulario, me pondré en contacto a la brevedad.</p>
+    <form>
+        <div class="form-group mb-4">
+            <label class="mb-2">Nombre</label>
+            <input class="form-control" placeholder="Nombre">
+        </div>
+        <div class="form-group mb-4">
+            <label class="mb-2">Correo electrónico</label>
+            <input class="form-control" placeholder="Correo electrónico" />
+        </div>
+        <div class="form-group">
+            <label class="mb-2">Mensaje</label>
+            <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+        </div>
+        <div class="my-3 text-end">
+            <button id="boton" class="btn btn-info text-light btncolor">Enviar</button>
+        </div>
+    </form>
+  </section>
+
+
+  <footer class="footer">
+    <i class="fa-brands fa-linkedin fa-2x"></i> <p>Visita mi <a href="https://www.linkedin.com/in/homero-simpson-518a43155">LinkedIn</a> para conocer más sobre mi.</p>
+    
+  </footer>
+
+ 
+</body>
+</section>

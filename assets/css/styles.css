@@ -1,0 +1,42 @@
+.nav-link, #contact_text{
+    font-style: italic;
+}
+
+.nav-link:hover{
+    background-color: rgb(132, 161, 51);
+}
+
+.img-fluid{
+    border-radius: 35%;
+    
+}
+
+
+.footer {
+    background-color: rgb(24, 23, 22);
+    font-size: 1.25em;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em 1em;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: italic;
+    }
+
+   #Contacto form label {
+  font-weight: 700;
+}
+
+
+#boton{
+    background-color: blueviolet;
+}
+
+#yo, #welcome, #contactame{
+    font-style: italic;
+    color: rgb(132, 161, 51);
+}
+
+body{
+    background-color: ;
+}
